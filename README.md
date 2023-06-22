@@ -7,7 +7,7 @@ Pour le bon fonctionnement de l'interface, le code repose sur l'API OCMovies-API
 # Fonctionnement 
 L'interface repose sur deux scripts principaux : 'jsi_api_interface.js' et 'html_generator.js'. Ces scripts sont respectivement responsables des appels à l'API et de la génération du html.
 
-Le script 'main.js' est résponsable des appels aux autres scripts et définie la présentation générale du site. Une liste CATONDISPLAY (CATegory ON DISPLAY) contient les noms des catégories pour lesquels on souhaite voir un carousel.
+Le script 'main.js' est résponsable des appels aux autres scripts et définit la présentation générale du site. Une liste CATONDISPLAY (CATegory ON DISPLAY) contient les noms des catégories pour lesquels on souhaite voir un carousel.
 
 # Utilisation
 Téléchargez le contenu de ce dépot via le bouton dédié ou, dans un terminal : $ git clone https://github.com/AntoineArchy/OC_P6_JustStremIt.git
