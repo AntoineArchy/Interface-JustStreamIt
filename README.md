@@ -11,5 +11,7 @@ Le script 'main.js' est résponsable des appels aux autres scripts et définit l
 
 # Utilisation
 Téléchargez le contenu de ce dépot via le bouton dédié ou, dans un terminal : $ git clone https://github.com/AntoineArchy/OC_P6_JustStremIt.git
+
 Suivez les instruction d'instalation et de mise en route de l'API présente sur la page suivante : https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR .
+
 Sur le même réseau ou l'API est disponible : ouvrez la page "index.html"
