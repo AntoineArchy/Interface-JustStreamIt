@@ -1,0 +1,229 @@
+/* Mise en forme générale */
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background: #b1adad;
+    color: #000000;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+button {
+    background-color: #b1adad;
+    border: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+button:hover {
+
+    background-color: #807f7f;
+    color: #b1adad; 
+}
+
+.JSI-tile-content {
+    align-items: center;
+    background: linear-gradient(#807f7f, #b1adad);
+    display: flex;
+    height: 600px;
+    justify-content: center;
+}
+
+.container {
+    width: 1400px;
+}
+
+.container h1 {
+    font-size: 45px;
+    text-transform:capitalize;
+
+}
+
+.container h2 {
+    font-size: 36px;
+    text-transform:capitalize;
+}
+
+/* Star movie */
+
+.star-movie-content button {
+    font-size: 18px;
+    width: 120px;
+}
+
+.star-movie-content p {
+    font-style: italic;
+    line-height: 180%;
+    margin-right: 60%;
+    margin-top: 3%;
+}
+
+.star-movie-content img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #00000066;
+    float: right;
+    max-width: 280px;
+    min-width: 200px;
+    width: 40%;
+} 
+
+
+/* Carrousel */
+
+.carousel-container {
+    align-items: center;
+    display: flex;
+    height: 430px;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-content {
+    bottom: -390px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    top: 300px;
+    transform: translateY(-50%);
+    transition: all 0.7s ease;
+}
+
+
+.car-btn {
+    background: #b1adadb4;
+    height: 370px;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    transform: translateY(-50%) scale(0.5);
+    transition: all 0.05s ease; 
+    visibility: hidden; 
+    width: 40px;
+    
+
+}
+
+.car-btn img {
+    object-fit: contain;
+    height: 40px;
+}
+
+.car-btn.show {
+    opacity: .7;
+    transform: translateY(-50%) scaleY(1);
+    visibility: visible;
+}
+
+
+.car-btn.right {
+    right: 0;
+} 
+
+.car-btn.right img{
+    transform: scaleX(-1);
+} 
+
+
+/* Movie titles */
+
+.movie {
+    margin-inline: 30px;
+    width: 220px;
+}
+
+.movie img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #807f7f;
+    transition: .5s ease;
+    width: 240px;
+    cursor: pointer;
+
+}
+
+.movie:hover img {
+    opacity: 0.2; 
+} 
+
+.movie:hover .movie-title {
+    opacity: 1;
+}
+
+.movie-title {
+    opacity: 0;
+    text-align: center;
+    transform: translate(10%, -180%);
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 60px;
+    cursor: pointer;
+    transition: .5s ease;
+
+
+}
+
+
+/* Modal */
+
+.modal {
+    background-color: #807f7f99;
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.modal-content {
+    background-color: #b1adad;
+    border-radius: 10px;
+    margin: 5% auto;
+    max-width: 1500px;
+    min-height: 350px;
+    padding: 30px 30px 60px 30px;
+    width: 80%;
+}
+
+.modal-content img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #807f7f;
+    float: right;
+    height: 340px;
+    margin-right: 120px;
+    margin-top: 1%;
+}
+
+.modal-movie-info {
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 40%;
+}
+
+.modal-movie-info h3 {
+    display: inline-block;
+    font-size: 24px;
+}
+
+.modal-movie-info strong {
+    color: #807f7f;
+}
+
+.modal-movie-info p {
+    display: inline;
+    line-height: 150%;
+}
+
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    cursor: pointer;
+    text-decoration: none;
+}
